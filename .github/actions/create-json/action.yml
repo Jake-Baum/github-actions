@@ -1,0 +1,15 @@
+name: 'Create JSON'
+description: 'Creates JSON'
+
+inputs:
+  fields:
+    description: 'Fields'
+    required: true
+
+outputs:
+  json:
+    description: 'Created JSON'
+
+runs:
+  using: node20
+  main: dist/index.js
