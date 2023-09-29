@@ -14,3 +14,9 @@ jobs:
 
       - name: Run Create JSON Action
         uses: ./.github/actions/create-json
+        with:
+          fields:
+            a: 1
+            b:
+              c: 2
+              d: '3'
